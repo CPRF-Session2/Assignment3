@@ -47,22 +47,22 @@ To gain a solid understanding of loops in C.
 int main () {
     int n = 1; 
     while (n > 0 && n < 5) { 
-    printf(“%d”, “Enter number:”);
-    scanf(“%d”, &n);
-  	switch (n) {
-  		case (1):
-  			printf(“%d”, n);
-  			break;
-  		case (2):
-  			printf(“%d”, n);
-  			break;
-  		case (3):
-  			printf(“%d”, n);
-  			break;
-  		case(4):
-  			printf(“%d”, n);
-  			break;
-  	}
+	    printf(“%d”, “Enter number:”);
+	    scanf(“%d”, &n);
+	  	switch (n) {
+	  		case (1):
+	  			printf(“%d”, n);
+	  			break;
+	  		case (2):
+	  			printf(“%d”, n);
+	  			break;
+	  		case (3):
+	  			printf(“%d”, n);
+	  			break;
+	  		case(4):
+	  			printf(“%d”, n);
+	  			break;
+	  	}
 }
 return 0; 
 }
