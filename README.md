@@ -76,4 +76,4 @@ return 0;
     ```
 
 ### Submission Guidelines
-Please include your name and a description in a comment at the top of your code files. Please also include your name at the top of your assignment3.txt file. Submit by Monday, July 26th at 10am. 
+Please include your name and a description in a comment at the top of your code files. Please also include your name at the top of your assignment3.txt file. Submit by Monday, July 25th at 10am. 
