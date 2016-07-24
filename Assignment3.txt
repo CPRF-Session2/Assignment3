@@ -1,0 +1,15 @@
+Ashank Kumar
+
+1a. O(n)
+
+1b. O(n^2)
+
+1c. O(n/2)(log2(n))
+
+2. You would recieve a compilation error since there is an unecessary %d in the first printf statement in the while loop. To fix the code the %d must be removed from this print statement.
+
+3. The following code is not valid since i may not have been initialized before, and the printf is trying to printf an unspecified int. First i should be initialized, after the quotation mark in the printf statement the following code should be added: ,i
+
+
+
+
