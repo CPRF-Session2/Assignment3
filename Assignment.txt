@@ -1,0 +1,15 @@
+Armstrong Park This is my theory homework
+1.
+a.O(n)
+b.2(n)
+c.n^2
+
+
+
+2.
+a. The problem is, is that since there is nothing other than breaks in the cases. If the user inputs a number between 1 and 4 inclusive, while it will still print the number it will will not prompt the user to input another number. To fix this you should replace every break with a continue.
+
+
+3.
+a.   The following code is not valid for two reasons. The first reason is that in a for loop, an initialization statement is required to indicate the first value of that variable. This code does not have the initialization while it still does have the condition and the increment. The second ting that makes this code invalid is the fact that in the printf function, there is no variable specified after the %d, so the program will not know what to display. To fix this, you have to add a comma and whatever variable you want to display after the %d.
+
