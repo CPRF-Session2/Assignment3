@@ -1,0 +1,6 @@
+Amanda Cuevas
+1a) The complexity of the following code snippet is O(n) = n.
+1b) The complexity of the following code snippet is O(n) = n + n^2.
+1c) The complexity of the following code snippet is O(n) = n log n.
+2)  The following code is incorrect. Even though it would allow the user to input a number between 1 - 4 and print it, there are issues with the code prompting the user for another number. Furthermore, a "continue;" code is needed under the "while" code, the "Enter number:" printf and scanf statement following it should precede the while statement, and in the first printf statement,' "%d". " should be deleted.
+3) No the following code snippet is not valid because i must first be declared prior to the for statement or at least initialized within the for statemnt. To continue, the printf statement must have a comma after the second quote and the variable "i" written after that in order to give %d a value.
