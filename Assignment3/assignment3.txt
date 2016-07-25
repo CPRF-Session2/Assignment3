@@ -1,0 +1,12 @@
+Aldin Aksay
+
+1. Determine the complexity
+	a: 24 bytes, O(n)
+	b: 32 bytes, O(n^2 + n)
+	c: 24 bytes, O(1/2n * 2^n)
+
+2. The following code should prompt the user for input. If that input is between 1 and 5, inclusive, then it should print the number back just once and prompt the user for another number. Does the following code do so? And if not, what does it do instead, and how could you fix it?
+	No, the code doesn't do so. Instead, there is a warning since when you print "Enter a number", one wouldn't do so with a %d, but with 	a %c. This is because it is a series of characters, not numbers.	
+
+3. Is the following code snippet valid? 
+	Yes, it would be valid, if "i" was initialized, and you specified that you are printing "i". 
