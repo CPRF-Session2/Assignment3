@@ -1,0 +1,10 @@
+Determining Complexity
+1.
+	a. n
+	b. n^2+n
+	c. (2^n*1/2n)
+
+2.
+	The code doesn't just print the number back just once ad asks the user for another input. Instead the %d in printf() is not followed by a ariavle but instead followed by 'Enter number' which would creat an error with the program. You could delete the "%d" in the printf() and then the code would work.
+
+3. This code snippet would be valid if 'i' was initialized and The code is not valid. The for loop begins with a semicolon in the front. In addition the %d is not defined in the printf() where there needs to be a variable.
