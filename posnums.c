@@ -1,4 +1,4 @@
-/*Write a program posnums.c that reads 2 positive integers from the user, and prints the average of the two (this should be printed as a floating point number.), whether each number is a prime number or not, and whether the two numbers are relatively prime or not (the only positive integer that divides both of them evenly is 1).*/
+/*MADELEINE CHARITY Write a program posnums.c that reads 2 positive integers from the user, and prints the average of the two (this should be printed as a floating point number.), whether each number is a prime number or not, and whether the two numbers are relatively prime or not (the only positive integer that divides both of them evenly is 1).*/
 #include <stdio.h>
 int main()
 {
