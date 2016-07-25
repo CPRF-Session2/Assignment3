@@ -1,0 +1,9 @@
+Madeleine Charity
+
+1a) the complexity is O(n)
+1b) the complexity is O(n+2n)
+1c) the complexity is O(2n)
+
+2) No, the code takes a number between 1 and 4 and prints it back to the user. The "break;"'s should be "continue:"'s and the %d in the first printf should be deleted. 
+
+3) yes the code is valid, but i must have been declared beforehand `
