@@ -1,0 +1,10 @@
+Jared Wasserman
+
+1)
+	a. O(n)
+	b. O(n^2)
+	c. O(log(n))
+
+2) There will be a compliation error because printf("%d","Enter number: ") is incorrect syntax; it should be printf("Enter number: ") because "Enter number: " is not a integer. Left as is instead of printing "Enter a number: " it will print some random numbers.
+
+3) This code is not valid because i is not defined and initialized, and there is no value specified in the printf. 
