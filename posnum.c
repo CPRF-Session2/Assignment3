@@ -88,6 +88,24 @@ int main() {
 	}
 	
 	/*check if they are relatively prime*/
-	
+	int count, temperary, num11, num22, end;
+	num11=(int)num1;
+	num22=(int)num2;
+	count =0;
+	while(end==0){
+		count++;
+		temperary = num11%num22;
+		if (temperary==0){
+			end=1;
+			printf("Your numbers are not relatively prime\n");
+		}
+		/*there is probably more efficient way to do this*/
+		if (count>num11&&count>num22){
+			end=1;
+			printf("Your numbers are relatively prime\n");
+		num11=num22;
+		num22=temperary;
+		}
+	}
 	return 0;
 }
