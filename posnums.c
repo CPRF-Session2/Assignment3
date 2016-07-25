@@ -14,6 +14,7 @@ int main(){
 		if(returnValue==0){
 			printf("Invalid input\n");
 			while(getchar()!='\n');
+			continue;
 		}
 		if(a<1||b<1){
 			printf("Positive numbers only\n");
