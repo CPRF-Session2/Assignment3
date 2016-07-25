@@ -1,0 +1,14 @@
+Can Parlar
+
+1.A. O(n)
+
+1.B. O(n^3)
+
+1.C. O(nlogn)
+
+2.The printf needs to be printf("Enter number:"); That fixes it.
+
+3. It is not valid. It needs to be:
+for (i=1; i <1000;i*=2) {
+	printd("%d", i); }
+
