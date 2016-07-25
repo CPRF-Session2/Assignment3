@@ -1,0 +1,8 @@
+1. 
+	a) O(n)
+	
+	b) O(2(n^2))
+
+	c) O(nLog)
+2. The printf should not have %d in it, printf("Enter number :") should fix it.
+3.It is not, because there is no variable given or declared.
