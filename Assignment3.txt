@@ -1,0 +1,11 @@
+Mariposa Lee 
+
+1a. o(n) = n. It will run until i is less than n
+b. o(n) = n+n^2. First, it will run n times, then n times for every n times (the for loops). 
+c. o(n) = n + log(n). First, it will run n times, then since theres an exponential function, the inverse of that would be log. 
+
+2. The code would do everything it intended to do, except there is an extra "%d" in line 5. Since the %d isn't defined, it will print an error. If that was removed, the code would compile and run successfully.
+
+3. It is not valid. First, the for loop starts with a semicolon, which implies it is missing a variable. So firstly, there needs to be a variable in the for loop, followed by the condition and increment. Secondly, %d in printf isn't defined. There needs to be a variable following it, representing the %d. For example, if the printed variable was num, it should be:
+printf("%d\n"", num);
+Then it would print out something specific. 
