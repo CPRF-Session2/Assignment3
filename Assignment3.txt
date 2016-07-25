@@ -1,0 +1,9 @@
+Albert Zhang
+1)Not sure if this is right please correct me if I'm wrong.
+	1. O(n) = n
+	2. O(n) = n + n^2
+	3. O(n) = log(n)
+2)Instead of break, there should be continue at the end of each case. There whould also be a default case in case the number inputted its not between 1 and 4.
+3)I think this code snippet isn't valid because the i variable isn't defined as a number yet.
+
+
