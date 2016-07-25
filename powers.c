@@ -7,7 +7,7 @@ int x;
 int y = 1;
 /*1 is a power of 2, 2^0*/
 do {
-printf("\nPlease enter a positive number: ");
+printf("Please enter a positive number: ");
 if(scanf("%d",&x)==0) {
 	printf("Not a positive number\n");
 }	while(getchar()!='\n');
