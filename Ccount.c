@@ -3,6 +3,18 @@
 #include <stdio.h>
 
 int main() {
+	char current;
+	int count;
+	count=0;
 	printf("Please mash keyboard with face: ");
-	scanf("%"
-	/*don't know how to do strings...*/
+	do {
+		current = getchar();
+		if (current=='c') {
+			count++;
+		}
+	}
+	while (current!='\n');
+	printf("%d\n", count);
+	return 0;
+}
+	
