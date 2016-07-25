@@ -1,0 +1,24 @@
+Matthew Kellerman
+
+1.
+a
+O(n)= n
+
+b.
+O(n)= n^2 (n squared)
+
+c.
+O(n)= logn
+
+2.
+The following code will only print the user's number. It will not prompt theuser for another number. This can be fixed by declaring a char 
+variable(x). Next, you would have to put the while loop inside a do while 
+loop. Before the while in the do while loop, you would have a
+printf and scanf statement that asks the user to put in a ceratin char if 
+they want to continue or end the program(y or n). The final while will
+compare x to the user's input. If its y, the program will run again. If it
+is n, the program will end.The %d in the printf statement after the while loop needs to be deleted.
+
+3.
+The following code is not valid. The printf inside the for loop doesn't havea variable in it. Besides that, the code is correct as long as i has been 
+declared a value outside the for loop.
