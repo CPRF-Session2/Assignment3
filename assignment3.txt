@@ -1,0 +1,15 @@
+/*Rebecca Hale, Part 2 Assignment 2*/
+1.
+a. The complexity is n.
+b. The complexity is n^2 + n.
+c. The complexity is n * n/2.
+2.
+The code does not do the intended task.  The statement "printf("%d", "Enter number:");" is
+an incorrect statement and results in the printing of an arbitrary number.
+Instead, the statement "printf("Enter number: ");" should have been used. If this statement
+had been written correctly, the code would have repeatedly asked for a number until given 
+a number lower than 1 or above 4.
+3. 
+The code snippet is invalid.  First, the variable i is never declared, so it
+is never given a space in memory.  Second, the statement "printf("%d\n");
+would result in an error because no integer was attached to the statement.
