@@ -1,0 +1,22 @@
+Drew French
+
+1)	a)	n
+	b)	n^2
+	c)	nlog(base 2)(n)
+
+2)	It does not do this. The loop should look like this:
+	while(n >= 1 && n <= 4)
+	{
+		printf("Enter a number: \n");
+		scanf("%d", &n);
+		if(n < 1 || n > 4)
+		{
+			break;
+		}
+		else
+		{
+			printf("%d", n);
+		}
+	}
+
+3)	No; printf("%d\n") needs to have `, i` before the `)`. Also, this only works if i was already initialized and given a value.
